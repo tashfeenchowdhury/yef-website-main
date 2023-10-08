@@ -1,0 +1,328 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Poppins&display=swap");
+
+/* Common styling */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar style */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  height: 100px;
+}
+
+.navbar-nav li {
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+#nav-yef-logo {
+  position: relative;
+  right: 15px;
+}
+
+.navbar-nav ul a {
+  float: right;
+  text-align: right;
+}
+.navbar-nav ul a:hover {
+  color: #16354a;
+  background: none;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding: 0;
+}
+
+.dropdown-item {
+  color: aliceblue;
+}
+
+/* Econsilium logo */
+
+#econsilium-logo img {
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  top: 30px;
+}
+
+/* Econsilium Details */
+.econsilium-details article {
+  text-align: justify;
+}
+
+#econsilium-tagline {
+  color: #b41e82;
+}
+
+.econsilium-video {
+  margin-top: 30px;
+}
+
+/* Organizing committee head */
+#about-och h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#about-och h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#about-och p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heads {
+  color: #b41e82;
+}
+
+/* OCH part */
+
+.profile {
+  padding: 0 0;
+  padding-top: 30px;
+}
+
+.profile h3 {
+  color: #b41e82;
+  font-family: "Hurricane", cursive;
+}
+
+
+.cover img {
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+.profile-photo img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  border-radius: 50%;
+  border: 5px solid #ffff;
+}
+
+.profile-photo:hover img {
+  border-color: #16354a;
+  transition: 0.7s;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.main-text h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+/* .main-text p {
+  font-size: 15px;
+  padding: 0 35px;
+} */
+
+/* .profile-card {
+    margin-bottom: 25px;
+  } */
+
+.socials i {
+  color: #16354a;
+  font-size: 25px;
+}
+
+.socials i:hover {
+  color: #b41e82;
+}
+
+/* OCH carousel- Owl carousel */
+
+.owl-dots {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid #16354a !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot:active {
+  background: #16354a !important;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 30% !important;
+}
+
+/* Footer Section */
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  position: relative;
+  right: 10px;
+  bottom: 22px;
+}
+ul {
+  padding-left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #ffff;
+}
+
+footer {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding-top: 20px;
+}
+
+.footer-details{
+  position: relative;
+  top: 30px;
+}
+
+.footer-about {
+  margin-bottom: 30px;
+}
+
+.footer-about p {
+  color: aliceblue;
+  font-weight: 300;
+  text-align: justify;
+  font-size: small;
+}
+.footer-widget h6 {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.footer-widget li {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  list-style: none;
+  line-height: 30px;
+}
+.footer-widget li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.footer-widget li a:hover {
+  color: #16354a;
+}
+.footer-widget .footer-subscribe p {
+  color: aliceblue;
+  font-size: small;
+}
+.footer-widget .footer-subscribe form {
+  position: relative;
+}
+
+.footer-widget .footer-subscribe form input {
+  width: 100%;
+  font-size: 15px;
+  color: #ffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffff;
+}
+.footer-widget .footer-subscribe form input::placeholder {
+  color: aliceblue;
+}
+.footer-widget .footer-subscribe form button {
+  color: aliceblue;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+
+.footer-copyright {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-copyright p {
+  color: aliceblue;
+  margin-bottom: 0;
+  font-size: small;
+}
+
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright p a:hover {
+  color: #16354a;
+}
+
+.google-maps {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+  #nav-yef-logo {
+    position: relative;
+    right: 75px;
+  }
+  .econsilium-details article {
+    margin-top: -100px;
+  }
+}

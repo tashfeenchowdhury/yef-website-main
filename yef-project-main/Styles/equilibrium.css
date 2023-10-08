@@ -1,0 +1,255 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Poppins&display=swap");
+
+/* Common styling */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar style */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  height: 100px;
+}
+
+.navbar-nav li {
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+#nav-yef-logo {
+  position: relative;
+  right: 15px;
+}
+
+.navbar-nav ul a {
+  float: right;
+  text-align: right;
+}
+.navbar-nav ul a:hover {
+  color: #16354a;
+  background: none;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding: 0;
+}
+
+.dropdown-item {
+  color: aliceblue;
+}
+
+/* Equilibrium Main Section  */
+
+#equilibrium-mockup img {
+  width: 70%;
+  height: auto;
+}
+
+.equilibrium-details article {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+/* Equilibrium Previous Versions btn */
+
+.join-btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  background: none;
+  border: 2px solid #fb9c1c;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 150px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn:hover {
+  color: #fff;
+}
+
+.btn:hover a {
+  color: white;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fb9c1c;
+  z-index: -1;
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+#join-bg::before {
+  transform: scaleX(0);
+  border-radius: 15px;
+}
+
+#join-bg:hover::before {
+  transform: scaleX(1);
+}
+
+#join-div h2{
+ text-align: center;
+}
+
+/* Footer Section */
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  position: relative;
+  right: 10px;
+  bottom: 22px;
+}
+ul {
+  padding-left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #ffff;
+}
+
+footer {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding-top: 20px;
+}
+
+.footer-details{
+  position: relative;
+  top: 30px;
+}
+
+.footer-about {
+  margin-bottom: 30px;
+}
+
+.footer-about p {
+  color: aliceblue;
+  font-weight: 300;
+  text-align: justify;
+  font-size: small;
+}
+.footer-widget h6 {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.footer-widget li {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  list-style: none;
+  line-height: 30px;
+}
+.footer-widget li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.footer-widget li a:hover {
+  color: #16354a;
+}
+.footer-widget .footer-subscribe p {
+  color: aliceblue;
+  font-size: small;
+}
+.footer-widget .footer-subscribe form {
+  position: relative;
+}
+
+.footer-widget .footer-subscribe form input {
+  width: 100%;
+  font-size: 15px;
+  color: #ffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffff;
+}
+.footer-widget .footer-subscribe form input::placeholder {
+  color: aliceblue;
+}
+.footer-widget .footer-subscribe form button {
+  color: aliceblue;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+
+.footer-copyright {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-copyright p {
+  color: aliceblue;
+  margin-bottom: 0;
+  font-size: small;
+}
+
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright p a:hover {
+  color: #16354a;
+}
+
+.google-maps {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+  #nav-yef-logo {
+    position: relative;
+    right: 75px;
+  }
+  #equilibrium-mockup img {
+    width: 100%;
+    height: auto;
+  }
+  #join-div button{
+    margin: 10px;
+  }
+
+}

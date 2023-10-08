@@ -1,0 +1,305 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Poppins&display=swap");
+
+/* Common styling */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar style */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  height: 100px;
+}
+
+.navbar-nav li {
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+#nav-yef-logo {
+  position: relative;
+  right: 15px;
+}
+
+.navbar-nav ul a {
+  float: right;
+  text-align: right;
+}
+.navbar-nav ul a:hover {
+  color: #16354a;
+  background: none;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding: 0;
+}
+
+.dropdown-item {
+  color: aliceblue;
+}
+
+/* Econ-reads-intro */
+
+#econ-reads img{
+    width: 130px;
+    height: auto;
+}
+
+#econ-reads p{
+    position: relative;
+    top: 43px;
+    text-align: justify ;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+
+/* Trending Slider*/
+
+#econ-blogs h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.blogs {
+  color: #fb9c1c;
+}
+
+.slider-main{
+    border-radius: 5px; 
+    background-color:#fff6ea;
+}
+
+.blog-details{
+    padding: 30px;
+    text-align: justify;
+}
+
+.multi-blog h1{
+    margin-top: 50px;
+}
+
+.author img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+
+
+.modal-btn{
+    margin-bottom: 10px;
+}
+
+
+/* line */
+
+hr:not([size]) {
+    height: 2px;
+}
+
+.line{
+    height: 3px;
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+}
+
+.intro-line{
+    height: 3px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+}
+
+
+/* OCH carousel- Owl carousel */
+
+.owl-dots {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 1px solid #16354a !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot:active {
+  background: #16354a !important;
+}
+
+.owl-carousel .owl-item .author img {
+    display: block;
+    height: auto;
+    width: 50px;
+}
+
+
+
+/* Footer Section */
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  position: relative;
+  right: 10px;
+  bottom: 22px;
+}
+ul {
+  padding-left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #ffff;
+}
+
+footer {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding-top: 20px;
+}
+
+.footer-details{
+  position: relative;
+  top: 30px;
+}
+
+.footer-about {
+  margin-bottom: 30px;
+}
+
+.footer-about p {
+  color: aliceblue;
+  font-weight: 300;
+  text-align: justify;
+  font-size: small;
+}
+.footer-widget h6 {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.footer-widget li {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  list-style: none;
+  line-height: 30px;
+}
+.footer-widget li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.footer-widget li a:hover {
+  color: #16354a;
+}
+.footer-widget .footer-subscribe p {
+  color: aliceblue;
+  font-size: small;
+}
+.footer-widget .footer-subscribe form {
+  position: relative;
+}
+
+.footer-widget .footer-subscribe form input {
+  width: 100%;
+  font-size: 15px;
+  color: #ffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffff;
+}
+.footer-widget .footer-subscribe form input::placeholder {
+  color: aliceblue;
+}
+.footer-widget .footer-subscribe form button {
+  color: aliceblue;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+
+.footer-copyright {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-copyright p {
+  color: aliceblue;
+  margin-bottom: 0;
+  font-size: small;
+}
+
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright p a:hover {
+  color: #16354a;
+}
+
+.google-maps {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+        #econ-reads{
+            display: flex;
+            flex-direction: column;
+        }
+        #econ-reads img{
+            position: relative;
+            right: 18px;
+        }
+        
+        #econ-reads p{
+            position: relative;
+            top: -20px;
+        }
+
+} 

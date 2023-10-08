@@ -1,0 +1,221 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Poppins&display=swap");
+
+/* Common styling */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar style */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  height: 100px;
+}
+
+.navbar-nav li {
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+}
+
+#nav-yef-logo {
+  position: relative;
+  right: 15px;
+}
+
+.navbar-nav ul a {
+  float: right;
+  text-align: right;
+}
+.navbar-nav ul a:hover {
+  color: #16354a;
+  background: none;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding: 0;
+}
+
+.dropdown-item {
+  color: aliceblue;
+}
+/* Econprodigy Cover */
+#ep-cover img {
+  width: -webkit-fill-available;
+}
+
+/* Econprodigy logo */
+
+#econprodigy-logo img {
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  top: 50px;
+}
+
+/* Econprodigy Details */
+.econprodigy-details article {
+  text-align: justify;
+}
+
+#econ {
+  color: #fb9c1c;
+  font-weight: 600;
+}
+
+#prodigy {
+  color: #1f1d59;
+  font-weight: 600;
+}
+
+.econprodigy-video {
+  margin-top: 30px;
+}
+
+/* Footer Section */
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  position: relative;
+  right: 10px;
+  bottom: 22px;
+}
+ul {
+  padding-left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #ffff;
+}
+
+footer {
+  background-image: linear-gradient(to right, #16354a, #fb9c1c);
+  padding-top: 20px;
+}
+
+.footer-details{
+  position: relative;
+  top: 30px;
+}
+
+.footer-about {
+  margin-bottom: 30px;
+}
+
+.footer-about p {
+  color: aliceblue;
+  font-weight: 300;
+  text-align: justify;
+  font-size: small;
+}
+.footer-widget h6 {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.footer-widget li {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+  list-style: none;
+  line-height: 30px;
+}
+.footer-widget li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.footer-widget li a:hover {
+  color: #16354a;
+}
+.footer-widget .footer-subscribe p {
+  color: aliceblue;
+  font-size: small;
+}
+.footer-widget .footer-subscribe form {
+  position: relative;
+}
+
+.footer-widget .footer-subscribe form input {
+  width: 100%;
+  font-size: 15px;
+  color: #ffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffff;
+}
+.footer-widget .footer-subscribe form input::placeholder {
+  color: aliceblue;
+}
+.footer-widget .footer-subscribe form button {
+  color: aliceblue;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+}
+
+.footer-copyright {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-copyright p {
+  color: aliceblue;
+  margin-bottom: 0;
+  font-size: small;
+}
+
+.footer-copyright p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright p a:hover {
+  color: #16354a;
+}
+
+.google-maps {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 480px) {
+  #nav-yef-logo {
+    position: relative;
+    right: 75px;
+  }
+  #ep-details {
+    position: relative;
+    bottom: 25px;
+  }
+  .econprodigy-details article {
+    margin-top: -100px;
+  }
+}
